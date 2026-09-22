@@ -16,7 +16,7 @@ module adder4(
    fulladd fa0 (.x(a[0]), .y(b[0]), .cin(1'b0), .sum(result[0]), .cout(c1));
    fulladd fa1 (.x(a[1]), .y(b[1]), .cin(c1),   .sum(result[1]), .cout(c2));
    fulladd fa2 (.x(a[2]), .y(b[2]), .cin(c2),   .sum(result[2]), .cout(c3));
-   fulladd fa3 (.x(a[3]), .y(b[3]), .cin(c3),   .sum(result[3]), .cout(result[4]));
+	fulladd fa3 (.x(a[3]), .y(b[3]), .cin(c3),   .sum(result[3]), .cout(result[4])); 
 	
 endmodule
 
